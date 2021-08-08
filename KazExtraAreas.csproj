@@ -55,10 +55,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>mkdir "C:\Users\danka\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\KazExtraAreas"
-del "C:\Users\danka\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\KazExtraAreas\*.dll"
-copy "D:\KazSoft\Projects\CitiesSkylinesMods\KazExtraAreas\bin\Release\KazExtraAreas.dll" "C:\Users\danka\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\KazExtraAreas\KazExtraAreas.dll"
-</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
